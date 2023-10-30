@@ -19,30 +19,21 @@
 // console.log(add(res, 777))
 /// Сделайте функцию, которая возвращает квадрат числа. Число передается параметром.///
 //
-function showSquare(){
-    let a=prompt("число");
-    let b=a**2;
-    prompt(`результат:${b}`)
+function showSquare(a){
+    return a**2
 }
-showSquare()//
+showSquare(10)
 
 ///---3--///
 //Сделайте функцию, которая возвращает сумму двух чисел.//
-// function calsSumm(numOne,numTwo){
-//     console.log(`переменная numOne:${numOne}`)
-//     console.log(`перменая numTwo:${numTwo}`)
-//     let numSumm=numOne+numTwo;
-//     console.log(`Сумма:${numSumm}`);
-// }
-// calsSumm(200,10)
+function calsSumm(numOne,numTwo){
+    return numTwo+numOne
+}
+calsSumm(200,10)
 ///---4---///
 //Сделайте функцию, которая отнимает от первого числа второе и делит на третье.//
 // function smallCalulator(a,b,c){
-//     console.log(a)
-//     console.log(b)
-//     console.log(c)
-//     let suMma=(a-b)/c;
-//     console.log(suMma);
+//    return (a-b)/2
 // }
 // smallCalulator(100,50,2)//
             //---5---//

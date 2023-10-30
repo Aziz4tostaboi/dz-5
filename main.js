@@ -8,23 +8,23 @@
  */
 "use strict"
 
-function multiply(a , b){
-    return a * b
-}
-function add( a, b ){
-    return a + b
-}
-
-let res =multiply(36325, 9824)
-console.log(add(res, 777))
+// function multiply(a , b){
+//     return a * b
+// }
+// function add( a, b ){
+//     return a + b
+// }
+//
+// let res =multiply(36325, 9824)
+// console.log(add(res, 777))
 /// Сделайте функцию, которая возвращает квадрат числа. Число передается параметром.///
 //
-// function showSquare(){
-//     let a=prompt("число");
-//     let b=a**2;
-//     prompt(`результат:${b}`)
-// }
-// showSquare()//
+function showSquare(){
+    let a=prompt("число");
+    let b=a**2;
+    prompt(`результат:${b}`)
+}
+showSquare()//
 
 ///---3--///
 //Сделайте функцию, которая возвращает сумму двух чисел.//
